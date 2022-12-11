@@ -8,8 +8,8 @@ import org.springframework.http.HttpStatus;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
-@JsonInclude(JsonInclude.Include.NON_NULL)
+@Builder // Helps us to create objects without using constructor
+@JsonInclude(JsonInclude.Include.NON_NULL) // if any data is null, don't include them in response
 public class ResponseWrapper {
 
     private boolean success;
