@@ -33,7 +33,6 @@ build/
 .vscode/
 /.idea/
 /.mvn/
-/src/test/
 /mvnw
 /mvnw.cmd
 /HELP.md
